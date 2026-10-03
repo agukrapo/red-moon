@@ -5,6 +5,7 @@ all: build sign
 clean:
 	@rm -rf app/build/
 	@rm -rf build/
+	@./gradlew clean
 
 build: clean
 	@./gradlew build
