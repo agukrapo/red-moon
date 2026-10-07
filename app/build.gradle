@@ -34,8 +34,8 @@ android {
         applicationId "com.jmstudios.redmoon"
         minSdkVersion 14
         targetSdkVersion 22 // sony xperia Android 5.1 tablet
-        versionCode 39
-        versionName "4.1.0"
+        versionCode 41
+        versionName "4.3.0"
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

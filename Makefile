@@ -14,4 +14,4 @@ build: clean
 sign:
 	@~/Library/Android/sdk/build-tools/34.0.0/zipalign -v 4 build/app-release-unsigned.apk build/app-release-aligned.apk
 	@~/Library/Android/sdk/build-tools/34.0.0/apksigner sign --ks my-release-key.jks --out build/red-moon.apk build/app-release-aligned.apk
-	@cp build/red-moon.apk ~/Downloads/red-moon-4.1.0.apk
+	@cp build/red-moon.apk ~/Downloads/red-moon-4.3.0.apk

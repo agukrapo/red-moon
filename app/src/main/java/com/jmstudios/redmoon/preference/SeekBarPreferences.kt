@@ -54,7 +54,7 @@ class IntensitySeekBarPreference(context: Context, attrs: AttributeSet) : SeekBa
 class DimSeekBarPreference(context: Context, attrs: AttributeSet) : SeekBarPreference(context, attrs) {
     override val suffix = "%"
 
-    override val max = 99
+    override val max = 100
 
     override val color: Int
         get() {
